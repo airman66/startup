@@ -1,0 +1,318 @@
+body {
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.intro {
+    background-image: url(img/BACKGROUND!.png);
+    width: 100%;
+    height: 770px;
+}
+
+.header__inner {
+    width: 91px;
+    height: 23px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu__section {
+    list-style: none;
+    display: flex;
+    width: 416px;
+    height: 17px;
+}
+
+.menu__section__item {
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 15px;
+}
+
+.menu__section__item:hover {
+    color: #ce5e4f;
+}
+
+.menu__section__item:last-child {
+    margin-right: 0;
+}
+
+.menu {
+    width: 540px;
+    height: 14px;
+    display: flex;
+    list-style: none;
+    z-index: 10000;
+}
+
+.menu__item {
+    /* Style for "Home" */
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "H, ome" */
+    letter-spacing: 0.35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item {
+    /* Style for "Home" */
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "H, ome" */
+    letter-spacing: 0.35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu__item:hover {
+    color: darkorange;
+    text-decoration-line: underline;
+}
+
+.intro__text {
+    width: 581px;
+    height: 87px;
+    color: #ffffff;
+    margin-top: 260px;
+    margin-bottom: 50px;
+}
+
+.intro__text__suptitle {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.intro__text__subtitle {
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn {
+    /* Style for "Rectangle" */
+    width: 180px;
+    height: 50px;
+    border-radius: 2px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    border: 2px solid black;
+    background: #ffffff;
+    color: black;
+    font-weight: bold;
+}
+
+.section {
+    width: 100%;
+    max-width: 1600px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.section__suptitle {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.section__line {
+    width: 50px;
+    height: 2px;
+    background-color: #555555;
+}
+
+.section__subtitle {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section__content {
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+    height: 220px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.section__content__advantages__item {
+    margin-right: 45px;
+    height: 220px;
+    width: 100%;
+    max-width: 505px;
+    display: block;
+}
+
+.section__content__advantages__item__icon {
+    margin-bottom: 30px;
+}
+
+.section__content__advantages__item__headline {
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.section__content__advantages__item__text {
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section__grayed {
+    background: #f8f8f8;
+    width: 100%;
+    margin: auto;
+}
+
+.textblock {
+    width: 553px;
+    height: 110px;
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 32px;
+}
+
+.section__aboutus__text {
+    height: 110px;
+    width: 1138px;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.greyed {
+    width: 100%;
+    height: 100px;
+    background: #f8f8f8;
+}
+
+.section__gray__suptitle {
+    margin-bottom: 30px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.photocardsblock {
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    background: #f8f8f8;
+}
+
+.photocard {
+    margin-right: 30px;
+    height: 308px;
+    width: 263px;
+    justify-content: center;
+    background: #f8f8f8;
+}
+
+.photocard__icon {
+    margin-bottom: 20px;
+}
+
+.photocard__name {
+    margin-bottom: 15px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.photocard__profession {
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section__content__images {
+    width: 1142px;
+    height: 1022px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.section__images__column {
+    width: 361px;
+    height: 1022px;
+    margin-right: 30px;
+}
+
+.section__images__column:last-child {
+    margin-right: 0;
+}
+
+.section__images__column__item {
+    margin-bottom: 30px;
+}
+
+.section__images__column__item:last-child {
+    margin-bottom: 0;
+}
