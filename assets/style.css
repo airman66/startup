@@ -468,3 +468,10 @@ header {
     color: #c0301c;
 }
 
+
+.holding__logos {
+    width: 898px;
+    display: flex;
+    height: 49px;
+}
+
