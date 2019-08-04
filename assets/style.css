@@ -472,6 +472,24 @@ header {
 .holding__logos {
     width: 898px;
     display: flex;
-    height: 49px;
+    padding-top: 98px;
+    padding-bottom: 68px;
+    justify-content: space-between;
 }
 
+.holding {
+    background-color: #f8f8f8;
+}
+
+
+.holding__blockquote__text {
+    padding-bottom: 44px;
+    width: 100%;
+}
+
+
+.holding__blockquote {
+    width: 763px;
+    height: 109px;
+    padding-bottom: 40px;
+}
