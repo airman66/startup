@@ -478,18 +478,59 @@ header {
 }
 
 .holding {
-    background-color: #f8f8f8;
+    background: #f8f8f8;
 }
 
 
 .holding__blockquote__text {
     padding-bottom: 44px;
-    width: 100%;
+    width: 770px;
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
 }
 
 
 .holding__blockquote {
-    width: 763px;
     height: 109px;
-    padding-bottom: 40px;
+}
+
+
+.holding__blockquote__author {
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+}
+
+
+.blockquote__dots {
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.blockquote__dots__item {
+    width: 15px;
+    height: 15px;
+    background-color: #ddd;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+
+.blockquote__dots__item:hover {
+    background-color: #c0301c;
+}
+
+
+.blockquote__dots__item:last-child{
+    margin-right: 0;
 }
