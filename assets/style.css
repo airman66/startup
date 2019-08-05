@@ -525,12 +525,15 @@ header {
     border-radius: 7px;
 }
 
-
-.blockquote__dots__item:hover {
-    background-color: #c0301c;
+.blockquote__dots__item:last-child {
+    margin-right: 0;
 }
 
 
-.blockquote__dots__item:last-child {
-    margin-right: 0;
+.blockquote__dots__item--red{
+    background-color: #c0301c;
+    margin-right: 10px;
+    border-radius: 7px;
+    width: 15px;
+    height: 15px;
 }
