@@ -646,16 +646,6 @@ header {
     display: flex;
 }
 
-.message::-webkit-input-placeholder {
-    font-family: "Roboto Slab";
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #555555;
-}
-
-
 .message {
     width: 747px;
     height: 104px;
@@ -709,4 +699,17 @@ header {
     line-height: 20px;
     padding-top: 14px;
     margin-left: 38px;
+}
+
+
+.someclass {
+    position: absolute;
+    top: 6040px;
+    left: 765px;
+    font-family: "Roboto Slab";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #555555;
 }
