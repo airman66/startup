@@ -160,7 +160,6 @@ header {
 
 .section {
     width: 100%;
-    max-width: 1600px;
     background: #ffffff;
     margin: 0 auto;
 }
@@ -612,7 +611,7 @@ header {
     margin-bottom: 101px;
 }
 
-.contacts__form{
+.contacts__form {
     margin-bottom: 101px;
 }
 
@@ -712,4 +711,47 @@ header {
     line-height: 20px;
     text-transform: uppercase;
     color: #555555;
+}
+
+
+
+.footer__section {
+    background-color: #c0301c;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.footer__section__icons {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__section__line {
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-bottom: 29px;
+}
+
+
+.footer__section__icons__item {
+    padding-right: 14px;
+}
+
+.footer__section__icons__item:last-child {
+    padding-right: 0;
+}
+
+.footer__section__copyright {
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 12px;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+    letter-spacing: 0.6px;
 }
