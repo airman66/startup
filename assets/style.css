@@ -653,7 +653,8 @@ header {
 
 
 .message {
-    width: 730px;
+    width: 747px;
     height: 104px;
     padding-left: 17px;
+    border: 1px solid #555555;
 }
