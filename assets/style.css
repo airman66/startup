@@ -605,9 +605,14 @@ header {
     height: 44px;
     width: 350px;
     border: 1px solid #555555;
+    margin-right: 30px;
 }
 
-.input__field:focus {
+.input__field:last-child {
+    margin-right: 0;
+}
+
+.input__field:focus{
     border: 1px solid #c0301c;
 }
 
@@ -618,4 +623,8 @@ header {
     font-weight: 300;
     line-height: 20px;
     text-transform: uppercase;
+}
+
+.input__column {
+    margin-bottom: 21px;
 }
