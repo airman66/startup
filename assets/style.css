@@ -623,6 +623,7 @@ header {
     font-weight: 300;
     line-height: 20px;
     text-transform: uppercase;
+    padding-left: 17px;
 }
 
 .input__column {
