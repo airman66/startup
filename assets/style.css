@@ -604,8 +604,18 @@ header {
 .input__field {
     height: 44px;
     width: 350px;
+    border: 1px solid #555555;
 }
 
-.input__field:focus-visible {
+.input__field:focus {
     border: 1px solid #c0301c;
+}
+
+::-webkit-input-placeholder {
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
 }
